@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Navigation Bar</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="logo.png" alt="Logo">
+      </div>
+      <ul class="menu">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+        <li><a href="#about">About Me</a></li>
+      </ul>
+      <ul class="social-media">
+        <li><a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a></li>
+        <li><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a></li>
+      </ul>
+    </nav>
+  </header>
+
+ <!-- Hero Section -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <h1>Two Tiny Designs</h1>
+      <p>Hello and welcome to my Portfolio!</p>
+      <p>This website is currently under construction. Please visit again later to see the progress. Thank you for your patience.</p>
+      <!--<p>Do explore my work below</p>-->
+      <button class="btn btn-primary" onclick="window.location.href='#projects'">My Works</button>
+      <button class="btn btn-secondary" onclick="window.location.href='#carousel-section'">The Other Side</button>
+    </div>
+  </div>
+</section>
+
+  </section>
+
+  <div class="about-me-container">
+    <div class="profile-picture">
+      <!-- Add your profile picture here -->
+      <img src="sample.jpg" alt="Profile Picture">
+    </div>
+    <div class="about-me-text">
+      <h2>About Me</h2>
+      <p>I have led a variety of projects, ranging from creating a user-friendly travel app to promoting community involvement with a unique surplus food-sharing platform. Furthermore, I have applied my design skills to improve the online presence of a mental health-focused non-profit organization and to enhance the user experience of the Australian defense website. Additionally, I have demonstrated my technical proficiency by independently developing a personal website using HTML, CSS, and Javascript, underscoring my commitment to both design and development.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2>My Projects</h2>
+    
+    <div class="project-card">
+      <img src="project1.jpg" alt="Project 1">
+      <h3>Project 1</h3>
+      <p>Description of Project 1...</p>
+      <a href="#">View Project</a>
+    </div>
+  
+    <div class="project-card">
+      <img src="project2.jpg" alt="Project 2">
+      <h3>Project 2</h3>
+      <p>Description of Project 2...</p>
+      <a href="#">View Project</a>
+    </div>
+  
+    <div class="project-card">
+      <img src="project3.jpg" alt="Project 3">
+      <h3>Project 3</h3>
+      <p>Description of Project 3...</p>
+      <a href="#">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <img src="project4.jpg" alt="Project 4">
+      <h3>Project 4</h3>
+      <p>Description of Project 4...</p>
+      <a href="#">View Project</a>
+    </div>
+   
+  
+  </div>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container">
+      <h3>Contact Me</h3>
+      <form action="contact.php" method="POST"> <!-- Replace "contact.php" with your form handling script -->
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="message" placeholder="Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </footer>
+
+  <script src="script.js"></script> <!-- JavaScript file for animations -->
+
+</body>
+</html>
